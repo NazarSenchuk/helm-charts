@@ -1,0 +1,19 @@
+cluster:
+  name: cluster-example
+  instances: 3
+  bootstrap:
+    initdb:
+      database: app
+      owner: app
+      secret:
+        name: app-secret
+
+  storage:
+    size: 1Gi
+
+backup:
+  name: backup-example
+  schedule: "0 0 0 * * *"
+  backupOwnerReference: self
+  cluster:
+    name: pg-backup
