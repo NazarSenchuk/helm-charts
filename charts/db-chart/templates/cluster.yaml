@@ -24,5 +24,11 @@ spec:
       owner: admin
       secret:
         name: database-admin-credential
+  managed:
+    roles:
+    - name: admin
+      ensure: present
+      login: true
+      superuser: false
   storage:
     size: {{ .Values.cluster.storage.size | default "1Gi" }}
