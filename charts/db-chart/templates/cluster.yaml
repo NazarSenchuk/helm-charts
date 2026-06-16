@@ -6,7 +6,7 @@ metadata:
     secret-generator.v1.mittwald.de/autogenerate: password
 type: kubernetes.io/basic-auth
 data:
-  username: YWRtaW4K
+  username: YWRtaW4=
 ---
 apiVersion: postgresql.cnpg.io/v1
 kind: Cluster
