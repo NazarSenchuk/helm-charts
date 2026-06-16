@@ -3,6 +3,16 @@ entries:
   db-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-06-16T12:40:11.875345729Z"
+    description: A Helm chart for Kubernetes
+    digest: 97e62209dcf01ea46ac9eb8c85523ee89a052a76965f1901a622bdc4fb9970bf
+    name: db-chart
+    type: application
+    urls:
+    - https://github.com/NazarSenchuk/helm-charts/releases/download/db-chart-0.1.1/db-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-06-16T08:19:04.152343686Z"
     description: A Helm chart for Kubernetes
     digest: 72d7377e174e7df26eb87855056121109886cb77011a1ab315b26cdfabcd45ff
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/NazarSenchuk/helm-charts/releases/download/db-chart-0.1.0/db-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-16T08:19:04.152349755Z"
+generated: "2026-06-16T12:40:11.875352269Z"
