@@ -21,7 +21,7 @@ spec:
   bootstrap:
     initdb:
       database: {{ .Values.cluster.bootstrap.initdb.database | default "app" }}
-      owner: {{ .Values.cluster.bootstrap.initdb.owner | default "app" }}
+      owner: admin
       secret:
         name: database-admin-credential
   storage:
